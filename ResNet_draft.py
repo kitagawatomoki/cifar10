@@ -25,6 +25,7 @@ import cv2
 from PIL import Image
 from tensorflow.keras.utils import plot_model
 
+
 #GPUメモリ使用制限
 physical_devices = tf.config.list_physical_devices('GPU')
 if len(physical_devices) > 0:
